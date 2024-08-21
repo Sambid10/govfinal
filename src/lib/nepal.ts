@@ -1,0 +1,392 @@
+interface Districts {
+  districts: string[];
+}
+
+interface Province extends Districts {
+  province: string;
+}
+
+
+export const district=[ "Bhojpur",
+"Dhankuta",
+"Ilam",
+"Jhapa",
+"Khotang",
+"Morang",
+"Okhaldhunga",
+"Panchthar",
+"Sankhuwasabha",
+"Solukhumbu",
+"Sunsari",
+"Taplejung",
+"Terhathum",
+"Udayapur",
+"Bara",
+"Parsa",
+"Dhanusa",
+"Mahottari",
+"Rautahat",
+"Saptari",
+"Sarlahi",
+"Siraha",
+"Bhaktapur",
+      
+].sort()
+
+
+
+export const Nepal:Province[]=[
+    {
+      "province": "Koshi Pradesh",
+      "districts": [
+        "Bhojpur",
+        "Dhankuta",
+        "Ilam",
+        "Jhapa",
+        "Khotang",
+        "Morang",
+        "Okhaldhunga",
+        "Panchthar",
+        "Sankhuwasabha",
+        "Solukhumbu",
+        "Sunsari",
+        "Taplejung",
+        "Terhathum",
+        "Udayapur"
+      ]
+    },
+    {
+      "province": "Madhesh Pradesh",
+      "districts": [
+        "Bara",
+        "Parsa",
+        "Dhanusa",
+        "Mahottari",
+        "Rautahat",
+        "Saptari",
+        "Sarlahi",
+        "Siraha"
+      ]
+    },
+    {
+      "province": "Bagmati Pradesh",
+      "districts": [
+        "Bhaktapur",
+        "Chitwan",
+        "Dhading",
+        "Dolakha",
+        "Kathmandu",
+        "Kavrepalanchok",
+        "Lalitpur",
+        "Makwanpur",
+        "Nuwakot",
+        "Ramechhap",
+        "Rasuwa",
+        "Sindhuli",
+        "Sindhupalchok"
+      ]
+    },
+    {
+      "province": "Gandaki Pradesh",
+      "districts": [
+        "Baglung",
+        "Gorkha",
+        "Kaski",
+        "Lamjung",
+        "Manang",
+        "Mustang",
+        "Myagdi",
+        "Nawalparasi (East)",
+        "Nawalparasi (West)",
+        "Parbat",
+        "Syangja",
+        "Tanahun"
+      ]
+    },
+    {
+      "province": "Lumbini Pradesh",
+      "districts": [
+        "Arghakhanchi",
+        "Banke",
+        "Bardiya",
+        "Dang Deukhuri",
+        "Rukum (East)",
+        "Gulmi",
+        "Kapilvastu",
+        "Palpa",
+        "Pyuthan",
+        "Rolpa",
+        "Rupandehi"
+      ]
+    },
+    {
+      "province": "Karnali Pradesh",
+      "districts": [
+        "Dailekh",
+        "Dolpa",
+        "Humla",
+        "Jajarkot",
+        "Jumla",
+        "Kalikot",
+        "Mugu",
+        "Salyan",
+        "Surkhet",
+        "Rukum (West)"
+      ]
+    },
+    {
+      "province": "Sudurpashchim Pradesh",
+      "districts": [
+        "Achham",
+        "Baitadi",
+        "Bajhang",
+        "Bajura",
+        "Dadeldhura",
+        "Darchula",
+        "Doti",
+        "Kailali",
+        "Kanchanpur"
+      ]
+    }
+  ]
+
+  export const provinces = [
+    "Koshi Pradesh",
+    "Madhesh Pradesh",
+    "Bagmati Province",
+    "Gandaki Province",
+    "Lumbini Province",
+    "Karnali Province",
+    "Sudurpashchim Province"
+];
+
+
+
+  export const districts=["Achham",
+  "Baitadi",
+  "Bajhang",
+  "Bajura",
+  "Dadeldhura",
+  "Darchula",
+  "Doti",
+  "Kailali",
+  "Kanchanpur",
+  "Humla",
+  "Jajarkot",
+  "Jumla",
+  "Kalikot",
+  "Mugu",
+  "Salyan",
+  "Surkhet",
+  "Rukum (West)",
+  "Arghakhanchi",
+        "Banke",
+        "Bardiya",
+        "Dang Deukhuri",
+        "Rukum (East)",
+        "Gulmi",
+        "Kapilvastu",
+        "Palpa",
+        "Pyuthan",
+        "Rolpa",
+        "Rupandehi",
+        "Baglung",
+        "Gorkha",
+        "Kaski",
+        "Lamjung",
+        "Manang",
+        "Mustang",
+        "Myagdi",
+        "Nawalparasi (East)",
+        "Nawalparasi (West)",
+        "Parbat",
+        "Syangja",
+        "Tanahun",
+        "Bhaktapur",
+        "Chitwan",
+        "Dhading",
+        "Dolakha",
+        "Kathmandu",
+        "Kavrepalanchok",
+        "Lalitpur",
+        "Makwanpur",
+        "Nuwakot",
+        "Ramechhap",
+        "Rasuwa",
+        "Sindhuli",
+        "Sindhupalchok",
+        "Bara",
+        "Parsa",
+        "Dhanusa",
+        "Mahottari",
+        "Rautahat",
+        "Saptari",
+        "Sarlahi",
+        "Siraha",
+        "Bhojpur",
+        "Dhankuta",
+        "Ilam",
+        "Jhapa",
+        "Khotang",
+        "Morang",
+        "Okhaldhunga",
+        "Panchthar",
+        "Sankhuwasabha",
+        "Solukhumbu",
+        "Sunsari",
+        "Taplejung",
+        "Terhathum",
+        "Udayapur"
+].sort()
+
+
+
+
+export const caste = [
+  "Aadhi",
+  "Ahir",
+  "Badhai",
+  "Badhaik",
+  "Bagata",
+  "Bagdi",
+  "Baishya",
+  "Balami",
+  "Bania",
+  "Banjara",
+  "Baraee",
+  "Basnet",
+  "Badi",
+  "Bagdhi",
+  "Baniya",
+  "Bantawa",
+  "Baral",
+  "Bardewa",
+  "Bhoi",
+  "Bhandari",
+  "Bhujel",
+  "Biswakarma",
+  "Bishwakarma",
+  "Bohora",
+  "Bote",
+  "Bramacharya",
+  "Brahman",
+  "Chaudhary",
+  
+  "Chamar",
+  "Chaudhari",
+  "Chhetri",
+  "Chhantyal",
+  "Chyame",
+  "Darai",
+  "Danuwar",
+  "Dhakal",
+  "Dhobi",
+  "Dhami",
+  "Dhangad",
+  "Dhimal",
+  "Dholi",
+  "Dolma",
+  "Gaine",
+  "Gadariya",
+  "Gandarva",
+  "Garg",
+  "Garti",
+  "Gharti",
+  "Giri",
+  "Gurung",
+  "Haluwai",
+  "Humagain",
+  "Jaishi",
+  "Jaisi",
+  "Jogi",
+  "Joshi",
+  "Kadayat",
+  "Kafle",
+  "Kahar",
+  "Karki",
+  "Karanjit",
+  "Kasai",
+  "Kashyap",
+  "Katel",
+  "Kaushik",
+  "Kewat",
+  "Khadka",
+  "Khaling",
+  "Khanal",
+  "Kharel",
+  "Khatri",
+  "Koirala",
+  "Koksheli",
+  "Kumal",
+  "Kulu",
+  "Kunwar",
+  "Kurmi",
+  "Lamichhane",
+  "Limbu",
+  "Lingden",
+  "Lohar",
+  "Lohani",
+  "Luitel",
+  "Lama",
+  "Mahato",
+  "Magar",
+  "Mahajan",
+  "Majhi",
+  "Mallik",
+  "Mandal",
+  "Mehar",
+  "Mijar",
+  "Mukhiya",
+  "Nepali",
+  "Pahadi",
+  "Pandey",
+  "Paneru"
+];
+
+
+export const numberOfReligions = [
+  "Hinduism",
+  "Buddhism",
+  "Islam",
+  "Christianity",
+  "Kirat",
+  "Jainism",
+  "Sikhism",
+  // Add more religions as needed
+];
+
+
+export const professions = [
+  "Doctor",
+  "Engineer",
+  "Teacher",
+  "Lawyer",
+  "Nurse",
+  "Artist",
+  "Chef",
+  "Pilot",
+  "Architect",
+  "Scientist",
+  "Writer",
+  "Musician",
+  "Police Officer",
+  "Firefighter",
+  "Actor",
+  "Athlete",
+  "Journalist",
+  "Entrepreneur",
+  "Dentist",
+  "Veterinarian",
+  // Add more professions as needed
+];
+
+
+export const citizenshipTypes = [
+  "Natural-born Citizenship",
+  "Citizenship by Descent",
+  "Citizenship by Registration",
+  "Citizenship by Investment",
+  "Dual Citizenship",
+  "Honorary Citizenship",
+  // Add more citizenship types as needed
+];
