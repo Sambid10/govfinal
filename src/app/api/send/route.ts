@@ -1,9 +1,10 @@
 import { render } from "@react-email/render";
 import WelcomeTemplate from "../../../../emails/index";
 import { Resend } from "resend";
-const resend = new Resend();
 
-export async function VerifyEmail(email:string) {
+
+export default async function VerifyEmail(email:string) {
+    const resend = new Resend();
 	// rate limit
 	// authorization
     try{
